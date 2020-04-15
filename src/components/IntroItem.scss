@@ -1,0 +1,31 @@
+.content-item {
+    padding: 16px;
+
+    &__title {
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        padding: 30;
+    }
+
+    &__description {
+        text-align: center;
+        color: #888;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+.content-item-block {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #ff8d2d;
+    margin: auto;
+    text-align: center;
+
+    .fa {
+        color: #ff8d2d;
+        font-size: 32px;
+        line-height: 70px;
+    }
+}
