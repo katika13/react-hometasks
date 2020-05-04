@@ -1,0 +1,27 @@
+.block-header{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.content-item-description{
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    line-height: 1.5;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    margin: 0 auto;
+
+    &::after {
+        content: '';
+        width: 64px;
+        height: 2px;
+        margin: 30px auto;
+        background: #ff8d2d;
+        display: block;
+    }
+}
